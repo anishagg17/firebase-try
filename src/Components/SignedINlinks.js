@@ -11,9 +11,9 @@ class SignedINlinks extends React.Component {
           <NavLink to="/create">New project</NavLink>
         </li>
         <li>
-          <button to="/" onClick={signOut}>
+          <NavLink to="/" onClick={signOut}>
             Logout
-          </button>
+          </NavLink>
         </li>
         <li>
           <NavLink to="/" className="btn btn-floating pink lighten-1">

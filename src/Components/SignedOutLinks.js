@@ -1,5 +1,5 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 class SignedOutLinks extends React.Component {
   render() {
     return (
@@ -11,7 +11,7 @@ class SignedOutLinks extends React.Component {
           <NavLink to="/signUp">Sign UP</NavLink>
         </li>
       </ul>
-    )
+    );
   }
 }
-export default SignedOutLinks
+export default SignedOutLinks;

@@ -19,9 +19,7 @@ class Summary extends Component {
       <div className="container section project-details">
         <div className="card z-depth-0">
           <div className="card-content">
-            <span className="card-title">
-              Project {this.props.match.params.id}
-            </span>
+            <span className="card-title">Project {this.state.title}</span>
             <span className="card-content">{this.state.content}</span>
           </div>
         </div>
